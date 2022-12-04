@@ -12,10 +12,11 @@
 3. Able to recommend products. [ ]
 4. Able to change recommendations. [ ]
 5. Able to give recommendations according to budget, component compatibilty. [ ]
-6. Able to tag a respond (E.g.: "too expensive" => lower budget). [ ]
-7. Able to give recommendations according to user's respond (E.g.: "too expensive", "too low"...). [ ]
-8. Correct grammar mistakes internally. [ ]
-9. Finished chatbot. [ ]
+6. Able to temporary remember mentioned products (E.g.: "Is this better than the last product?" => "this" = current product; "last product" => product mentioned before current product. [ ]
+7. Able to tag a respond (E.g.: "too expensive" => lower budget). [ ]
+8. Able to give recommendations according to user's respond (E.g.: "too expensive", "too low"...). [ ]
+9. Correct grammar mistakes internally. [ ]
+10. Finished chatbot. [ ]
 
 
 # Database relationship

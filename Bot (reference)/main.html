@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- Teneo Web Chat start -->
+        <div id="teneo-web-chat"></div>
+        <script src="./teneo-web-chat.js"></script>
+        <script>
+        window.onload = function () {
+            if (
+                window.TeneoWebChat &&
+                typeof window.TeneoWebChat.initialize === 'function') {
+                    var element = document.getElementById('teneo-web-chat');
+                    const teneoProps = {
+                        'teneoEngineUrl': 'https://some.teneo/engine-instance/',
+                        
+                    }
+                    
+                    
+                    window.TeneoWebChat.initialize(element,teneoProps);
+                    
+                    TeneoWebChat.call('show_callout','👋 Hi there! I am a callout message. Click me to open the <strong>chat window</strong>!');
+                    
+                    }}
+                    
+                    
+                    </script>
+        <!-- Teneo Web Chat end -->
+    </body>
+</html>
